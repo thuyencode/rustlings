@@ -7,9 +7,9 @@
 
 #[test]
 fn slice_out_of_array() {
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
+  let a: [i32; 5] = [1, 2, 3, 4, 5];
 
-    let nice_slice: &[i32] = &a[1..4];
+  let nice_slice: &[i32] = &a[1..4];
 
-    assert_eq!([2, 3, 4], nice_slice)
+  assert_eq!([2, 3, 4], nice_slice)
 }

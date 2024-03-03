@@ -1,5 +1,9 @@
 {
-    "recommendations": [
-        "rust-lang.rust-analyzer"
-    ]
+  "recommendations": [
+    "rust-lang.rust-analyzer",
+    "1yib.rust-bundle",
+    "lorenzopirro.rust-flash-snippets",
+    "drwilco.rustlings-helper",
+    "editorconfig.editorconfig"
+  ]
 }

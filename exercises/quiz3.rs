@@ -51,8 +51,8 @@ mod tests {
   #[test]
   fn generate_alphabetic_report_card() {
     // TODO: Make sure to change the grade here after you finish the exercise.
-    let report_card = ReportCard::<String> {
-      grade: "A+".into(),
+    let report_card = ReportCard::<&str> {
+      grade: "A+",
       student_name: "Gary Plotter".to_string(),
       student_age: 11,
     };
